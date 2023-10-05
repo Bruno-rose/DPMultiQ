@@ -1,5 +1,4 @@
-package dp_multiq
-
+package src.main.scala.DPMultiQ
 import scala.util.Random
 
 /** IndExp method for computing differentially private quantiles.

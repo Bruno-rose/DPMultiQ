@@ -1,14 +1,11 @@
-package dp_multiq
+package src.main.scala.DPMultiQ
 
-import breeze.numerics.log2
 import org.apache.commons.math3.complex.Complex
 import org.apache.commons.math3.transform.{
   DftNormalization,
   FastFourierTransformer,
   TransformType
 }
-
-import scala.math._
 
 object FFTExample {
   def padToNextPowerOf2(array: Array[Double]): Array[Double] = {

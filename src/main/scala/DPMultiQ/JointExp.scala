@@ -1,6 +1,5 @@
-package dp_multiq
+package src.main.scala.DPMultiQ
 
-import breeze.numerics.log2
 import org.apache.commons.math3.transform.{
   DftNormalization,
   FastFourierTransformer,
